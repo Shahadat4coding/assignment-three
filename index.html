@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Solution || Assignment Three</title>
+
+    <!-- google font ================================================================ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- tailwindcss and daisyUI link =============================================== -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'primary-title-text': '#131318',
+                        'primary-sub-title-text': '#13131899',
+                    }
+                }
+            }
+        }
+    </script>
+
+
+    <style>
+        body {
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="my-11">
+        <nav>
+
+        </nav>
+    </header>
+
+    <main class="w-[90%] lg:w-[1170px] mx-auto">
+        <!--  slider section  start-->
+        <section>
+
+            <div class="relative">
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="Images/1.png" class="w-full" />
+                        <div class="absolute flex justify-center lg:justify-start bottom-0 p-2 gap-4 mx-8 my-8">
+                            <a href="#slide4" class="btn btn-circle bg-[#131318] text-white">❮</a>
+                            <a href="#slide2" class="btn btn-circle bg-[#131318] text-white">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="Images/2.png" class="w-full" />
+                        <div class="absolute flex justify-center lg:justify-start bottom-0 p-2 gap-4 mx-8 my-8">
+                            <a href="#slide1" class="btn btn-circle bg-[#131318] text-white">❮</a>
+                            <a href="#slide3" class="btn btn-circle bg-[#131318] text-white">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <img src="Images/3.png" class="w-full" />
+                        <div class="absolute flex justify-center lg:justify-start bottom-0 p-2 gap-4 mx-8 my-8">
+                            <a href="#slide2" class="btn btn-circle bg-[#131318] text-white">❮</a>
+                            <a href="#slide4" class="btn btn-circle bg-[#131318] text-white">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <img src="Images/4.png" class="w-full" />
+                        <div class="absolute flex justify-center lg:justify-start bottom-0 p-2 gap-4 mx-8 my-8">
+                            <a href="#slide3" class="btn btn-circle bg-[#131318] text-white">❮</a>
+                            <a href="#slide1" class="btn btn-circle bg-[#131318] text-white">❯</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class=" bg-black text-white rounded-lg p-8 lg:absolute lg:right-0 lg:bottom-0 w-2/2 lg:w-2/4 lg:mr-8 lg:mb-8 ">
+                    <h3 class="font-extrabold text-2xl ">Meet all the heroes from the field</h3>
+                    <p class="pt-4 text-4 text-[#ffffff99]">Dit amet consectetur. Condimentum dignissim adipiscing
+                        aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+            </div>
+        </section>
+        <!--  slider section  start-->
+
+        <!-- club proficiency section start ============ -->
+        <section class="mt-[40px] lg:mt-[100px]">
+            <div class="text-center border-dashed border-t-2 border-b-2 pt-6 pb-6 lg:pt-8 lg:pb-8">
+                <h2 class="primary-title-text  text-2xl lg:text-4xl font-extrabold">Professional Hockeys Club</h2>
+                <p class="my-2 lg:my-6 px-[20%] text-sm lg:text-lg primary-sub-title-text ">Dit amet consectetur. Condimentum
+                    dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-4 pt-6 lg:pt-12 gap-7 px-[20%] lg:px-0">
+
+                <div class="text-center">
+                    <div class="radial-progress text-[#e74c3c] text-2xl font-extrabold " style="--value:87; --size:6rem; --thickness: 1rem;" role="progressbar">87%</div>
+                    <h3 class=" py-4 text-xl font-semibold primary-title-text">Prayer Facility</h3>
+                    <p class="text-lg primary-sub-title-text">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="radial-progress text-[#f1c40f] text-2xl font-extrabold " style="--value:95; --size:6rem; --thickness: 1rem;" role="progressbar">95%</div>
+                    <h3 class=" py-4 text-xl font-semibold primary-title-text">Prayer Facility</h3>
+                    <p class="text-lg primary-sub-title-text">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="radial-progress text-[#49D293] text-2xl font-extrabold " style="--value:80; --size:6rem; --thickness: 1rem;" role="progressbar">80%</div>
+                    <h3 class=" py-4 text-xl font-semibold primary-title-text">Prayer Facility</h3>
+                    <p class="text-lg primary-sub-title-text">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="radial-progress text-[#4C8DF1] text-2xl font-extrabold " style="--value:90; --size:6rem; --thickness: 1rem;" role="progressbar">90%</div>
+                    <h3 class=" py-4 text-xl font-semibold primary-title-text">Prayer Facility</h3>
+                    <p class="text-lg primary-sub-title-text">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                
+
+            </div>
+        </section>
+        <!-- club proficiency section end ============ -->
+
+
+        <!-- programe section start ============ -->
+        <section class="mt-[40px] lg:mt-[100px]">
+            <div class="text-center border-dashed border-t-2 border-b-2 pt-6 pb-6 lg:pt-8 lg:pb-8">
+                <h2 class="primary-title-text  text-2xl lg:text-4xl font-extrabold">Professional Hockeys Club</h2>
+                <p class="my-2 lg:my-6 px-[20%] text-sm lg:text-lg primary-sub-title-text ">Dit amet consectetur. Condimentum
+                    dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 text-white pt-8 gap-6">
+
+                <div class="col-span-1  bg-[url('images/2.png')]  bg-no-repeat bg-cover rounded-3xl">
+                    <div class=" bg-[#13131880] p-8 pt-24 rounded-3xl ">
+                            <h3 class="text-3xl font-extrabold ">Junior Program</h3>
+                        <p class="text-base font-semibold pt-4 pb-6">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                        <button class="btn bg-[#FF4240;] py-2 px-5 border-none outline-none text-white hover:bg-[#f05a57f3] text-xl font-bold">Register Now</button>
+                    </div>
+                </div>
+
+                <div class="col-span-1  bg-[url('images/3.png')]  bg-no-repeat bg-cover rounded-3xl">
+                    <div class=" bg-[#13131880] p-8 pt-24 rounded-3xl">
+                            <h3 class="text-3xl font-extrabold ">Junior Program</h3>
+                        <p class="text-base font-semibold pt-4 pb-6">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                            <button class="btn bg-[#FF4240;] py-2 px-5 border-none outline-none text-white hover:bg-[#f05a57f3] text-xl font-bold">Register Now</button>
+                    </div>
+                </div>
+
+                <div class="col-span-1 lg:col-span-2  bg-[url('images/4.png')]  bg-no-repeat bg-cover rounded-3xl">
+                    <div class=" bg-[#13131880] p-8 pt-24 rounded-3xl">
+                            <h3 class="text-3xl font-extrabold ">Junior Program</h3>
+                        <p class="text-base font-semibold pt-4 pb-6 lg:w-1/2">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                            <button class="btn bg-[#FF4240;] py-2 px-5 border-none outline-none text-white hover:bg-[#f05a57f3] text-xl font-bold">Register Now</button>
+                    </div>
+                </div>
+              
+            </div>
+            
+
+
+        </section>
+
+
+        <!-- new product section start ============ -->
+        <section class="mt-[40px] lg:mt-[100px]">
+            <div class="text-center border-dashed border-t-2 border-b-2 pt-6 pb-6 lg:pt-8 lg:pb-8">
+                <h2 class="primary-title-text  text-2xl lg:text-4xl font-extrabold">Professional Hockeys Club</h2>
+                <p class="my-2 lg:my-6 px-[20%] text-sm lg:text-lg primary-sub-title-text ">Dit amet consectetur. Condimentum
+                    dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+
+            
+
+
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
